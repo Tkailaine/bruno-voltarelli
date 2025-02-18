@@ -25,6 +25,10 @@
     }   
 
 
+    .outras-areas{
+      background-attachment: fixed;
+    }   
+
 .cv-advogado{
   flex-direction: row;
   width: 80%;

@@ -23,6 +23,10 @@ flex-direction: row;
 
 }
 
+.outras-areas{
+  background-attachment: fixed;
+}
+
 .ft-atuacao{
     height: 700px;
     

@@ -468,7 +468,7 @@
 background-repeat: no-repeat;
 background-size: cover;
 background-position: top;
-background-attachment: fixed;
+
   width: 100%;
   padding: 100px 0px;
 }
@@ -623,15 +623,28 @@ background-attachment: fixed;
 
 .ft-advogado{
   width: 400px;
-  background-color: #181717;
+  background-image: url(../imagens/bruno.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 80%;
   border-radius: 5px;
 }
 
 .txt-advogado{
   width: 400px;
-  height: 500px;
-  background-color: #1D3541;
+
+  padding: 40px }
+
+.txt-advogado ul{
+  color: rgb(0, 0, 0);
+  list-style: inside;
+  line-height: 2em;
+ 
+}
+
+.txt-advogado h1{
+  margin-top: 20px;
 }
 
 .chamada-acao{
@@ -807,6 +820,10 @@ footer{
 
 .sessao-footer div{
   margin-bottom: 15px;
+}
+
+.sessao-footer p, li{
+  margin: 10px 0px;
 }
 
 footer ul, a{
