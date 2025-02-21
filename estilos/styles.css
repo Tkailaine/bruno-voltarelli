@@ -950,6 +950,9 @@ textarea::placeholder {
   
 }
 
+.email{
+  width: 90%;
+}
 .divisoria{
     display: block;
     width: 90%;
